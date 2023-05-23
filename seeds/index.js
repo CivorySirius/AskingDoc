@@ -3,7 +3,7 @@ const cities = require('./cities');
 const { places, descriptors } = require('./seedHelpers');
 const Campground = require('../models/campground');
 
-mongoose.connect('mongodb://localhost:27017/yelp-camp', {
+mongoose.connect('mongodb://localhost:27017/askingdoc2-camp', {
 });
 
 const db = mongoose.connection;
@@ -36,12 +36,12 @@ const seedDB = async () => {
             },
             images: [
                 {
-                    url: 'https://res.cloudinary.com/dfji4wzve/image/upload/v1666283704/yelp/photo-1553570739-330b8db8a925_qx1iyg.jpg',
-                    filename: 'yelp/photo-1553570739-330b8db8a925_qx1iyg'
+                    url: 'https://res.cloudinary.com/dfji4wzve/image/upload/v1666283704/askingdoc2/photo-1553570739-330b8db8a925_qx1iyg.jpg',
+                    filename: 'askingdoc2/photo-1553570739-330b8db8a925_qx1iyg'
                 },
                 {
-                    url: 'https://res.cloudinary.com/dfji4wzve/image/upload/v1666137099/yelp/photo-1548883151-3b92dbd284dc_ch7fhn.jpg',
-                    filename: 'yelp/photo-1548883151-3b92dbd284dc_ch7fhn'
+                    url: 'https://res.cloudinary.com/dfji4wzve/image/upload/v1666137099/askingdoc2/photo-1548883151-3b92dbd284dc_ch7fhn.jpg',
+                    filename: 'askingdoc2/photo-1548883151-3b92dbd284dc_ch7fhn'
                 }
             ]
         })
