@@ -3,7 +3,7 @@
 <p align="left">A web application for patients to ask online doctors and inquire about medical questions!</p>
 <p align="left">https://askingdoc.herokuapp.com/</p>
 
-Implemented RESTful APIs with Node.js and Express.js to allow patients to
+Implemented RESTful APIs with Node.js and Express.js to allow patients to:
 - _create, update and delete inquiries_
 - _seek nearest doctors_ 
 - _reply to questions based on users’ locations_
