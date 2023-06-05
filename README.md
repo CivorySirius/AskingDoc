@@ -9,7 +9,7 @@ Implemented RESTful APIs with Node.js and Express.js to allow patients to:
 - _reply to questions based on users’ locations_
 - _register, and login_
 - _view disease questions_
-- review,rate and comments_
+- _review,rate and comments_
 
 Frontend used React.js, HTML/CSS and Bootstrap in JavaScript.
 
